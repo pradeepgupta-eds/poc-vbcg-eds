@@ -1,0 +1,39 @@
+{
+  "variantName": "care-guide",
+  "baseBlock": "care-guide",
+  "version": "1.0.0",
+  "created": "2026-09-07T00:00:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://main--poc-vbcg-eds--pradeep-x1-gupta.aem.page/allergy-care-guide",
+    "originPage": "Allergy Care Guide (clinical reference document)",
+    "blockPosition": "middle",
+    "note": "New custom block. Code copied faithfully from the source site's served blocks/care-guide/{care-guide.js,care-guide.css}. Not a Block Collection block. Repeated once per clinical condition (13 instances on this page)."
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "spacious",
+    "purpose": "clinical-condition-card",
+    "imagePattern": "noimg"
+  },
+  "contentPattern": {
+    "structure": "3 rows: title bar | two-column body (Quick Guide | Referral Guidelines) | Patient Communication footer",
+    "buttonCount": 0,
+    "imageCount": 0
+  },
+  "behavior": "Row 1 becomes a blue title bar and the block id is derived from a slug of the title text (jump-link target). Row 2 becomes a two-column grid (Quick Guide left, Referral Guidelines right). Row 3 becomes a full-width Patient Communication footer. Collapses to a single column below 700px.",
+  "reuseGuidance": {
+    "suitableFor": [
+      "clinical care guide condition entries",
+      "structured reference cards with a title, two-column body, and footer"
+    ],
+    "notSuitableFor": [
+      "generic marketing cards (use cards)",
+      "free-form side-by-side layouts (use columns)"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["/allergy-care-guide"],
+    "reuseCount": 1,
+    "lastUsed": "2026-09-07T00:00:00.000Z"
+  }
+}

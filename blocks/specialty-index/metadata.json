@@ -1,0 +1,38 @@
+{
+  "variantName": "specialty-index",
+  "baseBlock": "specialty-index",
+  "version": "1.0.0",
+  "created": "2026-09-07T00:00:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://main--poc-vbcg-eds--pradeep-x1-gupta.aem.page/",
+    "originPage": "Value-based Care Guides Index (homepage)",
+    "blockPosition": "middle"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "compact",
+    "purpose": "link-index",
+    "imagePattern": "noimg"
+  },
+  "contentPattern": {
+    "structure": "list of specialty links rendered as balanced multi-column directory",
+    "buttonCount": 0,
+    "imageCount": 0
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "A–Z / directory index pages",
+      "specialty or category link listings",
+      "site index pages with many same-styled links"
+    ],
+    "notSuitableFor": [
+      "cards with images and descriptions",
+      "single-column navigation menus"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["/index"],
+    "reuseCount": 1,
+    "lastUsed": "2026-09-07T00:00:00.000Z"
+  }
+}

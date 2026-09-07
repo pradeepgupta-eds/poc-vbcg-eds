@@ -1,0 +1,57 @@
+{
+  "metadata": {
+    "projectType": "da"
+  },
+  "templates": [
+    {
+      "name": "care-guide-index",
+      "urls": [
+        "https://main--poc-vbcg-eds--pradeep-x1-gupta.aem.page/"
+      ],
+      "representativeUrl": "https://main--poc-vbcg-eds--pradeep-x1-gupta.aem.page/",
+      "description": "Value-based Care Guides Index landing page: title + intro, advisor search widget, specialty index list, and about section.",
+      "urlPattern": "/",
+      "blocks": [
+        {
+          "name": "advisor",
+          "instances": [
+            ".advisor.block",
+            "div.advisor-wrapper > div.advisor"
+          ]
+        },
+        {
+          "name": "specialty-index",
+          "instances": [
+            ".specialty-index.block",
+            "div.specialty-index-wrapper > div.specialty-index"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "allergy-care-guide",
+      "urls": [
+        "https://main--poc-vbcg-eds--pradeep-x1-gupta.aem.page/allergy-care-guide"
+      ],
+      "representativeUrl": "https://main--poc-vbcg-eds--pradeep-x1-gupta.aem.page/allergy-care-guide",
+      "description": "Clinical care guide document: sticky in-page navigation and repeated per-condition care-guide blocks with Quick Guide / Referral Guidelines / Patient Communication.",
+      "urlPattern": "/*-care-guide",
+      "blocks": [
+        {
+          "name": "guide-nav",
+          "instances": [
+            ".guide-nav.block",
+            "div.guide-nav-wrapper > div.guide-nav"
+          ]
+        },
+        {
+          "name": "care-guide",
+          "instances": [
+            ".care-guide.block",
+            "div.care-guide-wrapper > div.care-guide"
+          ]
+        }
+      ]
+    }
+  ]
+}

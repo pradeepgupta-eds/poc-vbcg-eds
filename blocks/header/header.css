@@ -1,6 +1,7 @@
 /* header and nav layout */
 header .nav-wrapper {
-  background-color: var(--background-color);
+  background-color: var(--brand-navy);
+  color: #fff;
   width: 100%;
   z-index: 2;
   position: fixed;
@@ -58,11 +59,12 @@ header nav a:any-link {
   color: currentcolor;
 }
 
-/* hamburger */
+/* hamburger — hidden: this site's header is a brand-only bar with no nav menu */
 header nav .nav-hamburger {
   grid-area: hamburger;
   height: 22px;
-  display: flex;
+  display: none;
+  visibility: hidden;
   align-items: center;
 }
 
@@ -142,14 +144,27 @@ header nav[aria-expanded='true'] .nav-hamburger-icon::after {
 /* brand */
 header .nav-brand {
   grid-area: brand;
-  flex-basis: 128px;
+  flex-basis: auto;
   font-size: var(--heading-font-size-s);
   font-weight: 700;
   line-height: 1;
 }
 
+/* the full Risant Health logo lockup (mark + wordmark) is the SVG; the link
+   text is kept for the accessible name but visually replaced by the image */
+header nav .nav-brand a:any-link {
+  display: block;
+  width: 194px;
+  height: 25px;
+  background: url('/icons/risant-logo.svg') left center / contain no-repeat;
+  color: transparent;
+  font-size: 0;
+  line-height: 0;
+  overflow: hidden;
+}
+
 header nav .nav-brand img {
-  width: 128px;
+  width: 150px;
   height: auto;
 }
 

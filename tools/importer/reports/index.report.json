@@ -1,0 +1,12 @@
+{
+  "status": "success",
+  "url": "https://main--poc-vbcg-eds--pradeep-x1-gupta.aem.page/",
+  "path": "index",
+  "timestamp": "2026-09-07T14:24:38.586Z",
+  "title": "Value-based Care Guides Index | Risant Health",
+  "template": "care-guide-index",
+  "blocks": [
+    "advisor",
+    "specialty-index"
+  ]
+}

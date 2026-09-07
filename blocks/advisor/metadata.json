@@ -1,0 +1,37 @@
+{
+  "variantName": "advisor",
+  "baseBlock": "advisor",
+  "version": "1.0.0",
+  "created": "2026-09-07T00:00:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://main--poc-vbcg-eds--pradeep-x1-gupta.aem.page/",
+    "originPage": "Value-based Care Guides Index (homepage)",
+    "blockPosition": "top"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "compact",
+    "purpose": "advisor-search",
+    "imagePattern": "icon"
+  },
+  "contentPattern": {
+    "structure": "heading label + text input + submit button",
+    "buttonCount": 1,
+    "imageCount": 0
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "care guide index pages",
+      "portal landing pages needing a prompt/search entry point"
+    ],
+    "notSuitableFor": [
+      "full site search results pages",
+      "pages requiring a functional query backend"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["/index"],
+    "reuseCount": 1,
+    "lastUsed": "2026-09-07T00:00:00.000Z"
+  }
+}

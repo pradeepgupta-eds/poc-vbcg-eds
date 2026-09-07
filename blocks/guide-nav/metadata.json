@@ -1,0 +1,39 @@
+{
+  "variantName": "guide-nav",
+  "baseBlock": "guide-nav",
+  "version": "1.0.0",
+  "created": "2026-09-07T00:00:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://main--poc-vbcg-eds--pradeep-x1-gupta.aem.page/allergy-care-guide",
+    "originPage": "Allergy Care Guide (clinical reference document)",
+    "blockPosition": "top",
+    "note": "New custom block. Code copied faithfully from the source site's served blocks/guide-nav/{guide-nav.js,guide-nav.css}. Not a Block Collection block."
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "compact",
+    "purpose": "in-page-jump-navigation",
+    "imagePattern": "noimg"
+  },
+  "contentPattern": {
+    "structure": "single cell with a list of anchor links (lead 'Back' link + per-section jump links)",
+    "buttonCount": 0,
+    "imageCount": 0
+  },
+  "behavior": "Renders links as a sticky vertical nav rail, marks the first link as a lead link, intercepts in-page hash jumps for JS-controlled smooth scrolling with layout-shift correction, and adds the 'guide-layout' class to its containing section to enable the two-column care-guide layout.",
+  "reuseGuidance": {
+    "suitableFor": [
+      "long clinical care guide pages",
+      "multi-section reference documents needing in-page jump navigation"
+    ],
+    "notSuitableFor": [
+      "site-wide primary navigation (use header)",
+      "short pages without multiple anchored sections"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["/allergy-care-guide"],
+    "reuseCount": 1,
+    "lastUsed": "2026-09-07T00:00:00.000Z"
+  }
+}
