@@ -1,0 +1,13 @@
+{
+  "total": 4,
+  "offset": 0,
+  "limit": 4,
+  "data": [
+    { "name": "Advisor", "path": "/block-library/advisor" },
+    { "name": "Specialty Index", "path": "/block-library/specialty-index" },
+    { "name": "Guide Nav", "path": "/block-library/guide-nav" },
+    { "name": "Care Guide", "path": "/block-library/care-guide" }
+  ],
+  "columns": ["name", "path"],
+  ":type": "sheet"
+}
